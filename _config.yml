@@ -1,0 +1,147 @@
+title: "Edmund Gunn, Jr."
+description: "6G/URLLC • Secure SoCs • Edge AI — MS Computer E @ NYU"
+url: "https://gunnchos3kmlv.github.io"
+baseurl: "/edmundgunnjr.github.io"
+theme: null
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Site Settings
+author:
+  name: "Edmund Gunn, Jr."
+  avatar: "/assets/images/avatar.jpg"
+  bio: "Prototype-driven engineer focused on real-time interaction for next-gen game consoles & controllers. Hands-on network security automation, interactive learning tech, and teaching."
+  location: "Brooklyn, NY"
+  email: "edmundgunnjr@gmail.com"
+  phone: "219-805-3048"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/gunnchOS3k"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/edmund-gunn-jr/"
+
+# Site Settings
+locale: "en-US"
+title_separator: "|"
+name: "Edmund Gunn, Jr."
+tagline: "6G/URLLC • Secure SoCs • Edge AI — MS Computer E @ NYU"
+
+# Navigation
+header:
+  overlay_image: "/assets/images/hero-bg.jpg"
+  overlay_filter: 0.5
+  actions:
+    - label: "View Projects"
+      url: "/projects/"
+    - label: "Download Resume"
+      url: "/assets/Edmund_Gunn_Jr_Resume.pdf"
+
+# Sidebar
+sidebar:
+  - title: "About"
+    image: "/assets/images/avatar.jpg"
+    image_alt: "Edmund Gunn, Jr."
+    text: "Prototype-driven engineer focused on real-time interaction for next-gen game consoles & controllers. Hands-on network security automation, interactive learning tech, and teaching."
+  - title: "Contact"
+    text: |
+      **Email:** [edmundgunnjr@gmail.com](mailto:edmundgunnjr@gmail.com)
+      
+      **Phone:** [219-805-3048](tel:219-805-3048)
+      
+      **GitHub:** [github.com/gunnchOS3k](https://github.com/gunnchOS3k)
+      
+      **LinkedIn:** [linkedin.com/in/edmund-gunn-jr](https://www.linkedin.com/in/edmund-gunn-jr/)
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  research:
+    output: true
+    permalink: /research/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+      read_time: false
+      share: true
+      related: true
+      comments: false
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "single"
+      author_profile: true
+      read_time: false
+      share: true
+      related: true
+      comments: false
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: "single"
+      author_profile: true
+      read_time: false
+      share: true
+      related: true
+      comments: false
+
+# Plugins
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+
+# Permalinks
+permalink: /:categories/:title/
+
+# SEO
+seo:
+  type: "Person"
+  name: "Edmund Gunn, Jr."
+  description: "6G/URLLC • Secure SoCs • Edge AI — MS Computer E @ NYU"
+  url: "https://gunnchos3kmlv.github.io/edmundgunnjr.github.io"
+  image: "/assets/images/avatar.jpg"
+
+# Social
+social:
+  type: "Person"
+  name: "Edmund Gunn, Jr."
+  links:
+    - "https://github.com/gunnchOS3k"
+    - "https://www.linkedin.com/in/edmund-gunn-jr/"
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/gunnchOS3k"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/edmund-gunn-jr/"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:edmundgunnjr@gmail.com"

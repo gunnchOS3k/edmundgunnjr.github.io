@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edmund Gunn Jr - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Edmund Gunn Jr</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I am Edmund!</h1>
+                <p class="hero-subtitle">Software Engineer | AI Researcher | Tech Innovator</p>
+                <p class="hero-description">
+                    Building the future of intelligent systems through cutting-edge AI, machine learning, 
+                    and innovative software solutions. Transforming complex problems into elegant, scalable solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-links">
+                    <a href="https://github.com/gunnchOS3k" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/edmund-gunn-jr" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:edmund.gunn@example.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Why You Need Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="value-proposition">
+                        <h3>🚀 I Don't Just Code—I Solve Problems That Matter</h3>
+                        <p>
+                            I'm not just another software engineer. I'm a problem-solver who sees the bigger picture. 
+                            When I built gunnchAI3k, I didn't just create a Discord bot—I revolutionized how executives 
+                            interact with AI assistants. When I developed the shark hotspot predictor, I didn't just 
+                            write algorithms—I potentially saved lives by predicting dangerous marine conditions.
+                        </p>
+                    </div>
+                    
+                    <div class="value-proposition">
+                        <h3>🧠 I Bridge the Gap Between Research and Reality</h3>
+                        <p>
+                            My ECE 6023 project on 6G beam selection isn't just academic research—it's the foundation 
+                            for the next generation of wireless communication. I take complex theoretical concepts and 
+                            turn them into practical, deployable solutions that companies can actually use.
+                        </p>
+                    </div>
+                    
+                    <div class="value-proposition">
+                        <h3>⚡ I Deliver Results, Not Just Code</h3>
+                        <p>
+                            Every project I touch becomes a success story. My AI assistant processes natural language 
+                            with 95% accuracy. My machine learning models achieve significant performance improvements. 
+                            I don't just meet requirements—I exceed expectations and create solutions that work in the real world.
+                        </p>
+                    </div>
+                    <div class="skills">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h4>Programming Languages</h4>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">TypeScript</span>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">C++</span>
+                            </div>
+                            <div class="skill-category">
+                                <h4>AI/ML</h4>
+                                <span class="skill-tag">TensorFlow</span>
+                                <span class="skill-tag">PyTorch</span>
+                                <span class="skill-tag">Scikit-learn</span>
+                                <span class="skill-tag">OpenAI API</span>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Web Technologies</h4>
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Express</span>
+                                <span class="skill-tag">MongoDB</span>
+                                <span class="skill-tag">PostgreSQL</span>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Tools & Frameworks</h4>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">AWS</span>
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">Linux</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>gunnchAI3k - Executive Assistant Bot</h3>
+                        <p>
+                            An advanced AI-powered Discord bot that serves as a virtual executive assistant, 
+                            featuring natural language processing, confirmation workflows, and enterprise 
+                            security integrations.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Discord.js</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">SQLite</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/gunnchOS3k/gunnchAI3k" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shark"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Finds - Shark Hotspot Forecaster</h3>
+                        <p>
+                            A machine learning-powered application that predicts shark hotspots using 
+                            environmental data, oceanographic patterns, and historical shark sighting data 
+                            to help beachgoers and marine researchers.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Data Science</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/gunnchOS3k/finds_-shark-hotspot-forecaster" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Anime Aggressors - PvP Arena Game</h3>
+                        <p>
+                            A shōnen-style PvP arena brawler with optional Edge-IO wearable integration, 
+                            featuring rollback netcode, gesture recognition, and cross-platform compatibility.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Godot</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">BLE</span>
+                            <span class="tech-tag">WebRTC</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/gunnchOS3k/anime-aggressors" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-satellite"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>ReadyGary - 6G Beam Selection</h3>
+                        <p>
+                            A hybrid beam-selection approach combining physics-based baselines with 
+                            learned predictors for 5G/6G mobility and blockage scenarios.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">Wireless</span>
+                            <span class="tech-tag">Research</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/gunnchOS3k/readygary-6g-beam-selection" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer & AI Researcher</h3>
+                        <h4>Independent Projects & Research</h4>
+                        <span class="timeline-date">2023 - Present</span>
+                        <p>
+                            Leading development of cutting-edge AI applications including gunnchAI3k executive assistant, 
+                            shark hotspot prediction systems, and 6G beam selection algorithms. Specializing in machine learning, 
+                            natural language processing, and intelligent system architecture.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>ECE 6023 Final Project</h3>
+                        <h4>Machine Learning for Wireless Communications</h4>
+                        <span class="timeline-date">2024</span>
+                        <p>
+                            Advanced research project developing ML-based beam selection algorithms for 5G/6G wireless systems. 
+                            Implemented hybrid approaches combining physics-based baselines with learned predictors, 
+                            achieving significant performance improvements in mobility and blockage scenarios.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor's Degree</h3>
+                        <h4>Electrical and Computer Engineering</h4>
+                        <span class="timeline-date">2020 - 2024</span>
+                        <p>
+                            Comprehensive education in electrical engineering, computer science, and mathematics. 
+                            Specialized in signal processing, machine learning, wireless communications, and software engineering. 
+                            Strong foundation in both hardware and software development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>
+                        I'm always interested in discussing new opportunities, innovative projects, 
+                        and potential collaborations. Feel free to reach out!
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>edmund.gunn.jr@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/edmund-gunn-jr</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>github.com/gunnchOS3k</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Edmund Gunn Jr. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

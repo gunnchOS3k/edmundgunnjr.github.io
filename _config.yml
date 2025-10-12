@@ -1,7 +1,7 @@
 title: "Edmund Gunn, Jr."
 description: "6G/URLLC • Secure SoCs • Edge AI — MS Computer E @ NYU"
 url: "https://gunnchOS3k.github.io"
-baseurl: "/edmundgunnjr.github.io"
+baseurl: ""
 theme: null
 remote_theme: "mmistakes/minimal-mistakes"
 
@@ -122,7 +122,7 @@ seo:
   type: "Person"
   name: "Edmund Gunn, Jr."
   description: "6G/URLLC • Secure SoCs • Edge AI — MS Computer E @ NYU"
-  url: "https://gunnchos3kmlv.github.io/edmundgunnjr.github.io"
+  url: "https://gunnchOS3k.github.io"
   image: "/assets/images/avatar.jpg"
 
 # Social

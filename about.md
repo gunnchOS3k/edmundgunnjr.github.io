@@ -7,7 +7,7 @@ author_profile: true
 
 # About Edmund Gunn, Jr.
 
-Prototype-driven engineer focused on real-time interaction for next-gen game consoles & controllers. Hands-on network security automation, interactive learning tech, and teaching.
+AI/ML Engineer & 6G Researcher focused on Edge Computing & Educational Technology. Hands-on AI development, network security automation, and educational technology. Winner of NASA Space Apps NYC for AI-powered shark detection from space.
 
 ## Education
 
@@ -20,6 +20,12 @@ Brooklyn, NY • Expected Dec 2025 • GPA: 3.4
 West Lafayette, IN • Dec 2021 • GPA: 3.71
 
 ## Experience
+
+### NASA Space Apps NYC — Winner, Best Use of Google Gemini (2024)
+- Developed AI-powered system to predict shark activity hotspots using NASA satellite data
+- Implemented zero-egress Cloudflare R2 storage for global performance
+- Created 3D visualization using OpenSpace for interactive data exploration
+- Demonstrated practical application of space data for marine conservation
 
 ### gunnchOS3k MLV — Founder & CEO (2022–Present)
 - Office-education-recreation device concept informed by 6G research

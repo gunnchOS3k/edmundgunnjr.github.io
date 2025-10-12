@@ -1,0 +1,194 @@
+PROJECT SUMMARY FOR YASMINE
+============================
+Edmund Gunn, Jr. - Portfolio Projects
+Generated: October 9, 2025
+
+OVERVIEW
+========
+This document summarizes the key projects I've developed, showcasing my technical skills, 
+innovative approaches, and real-world impact. These projects demonstrate expertise in AI/ML, 
+6G wireless communications, edge computing, cybersecurity, and full-stack development.
+
+1. FINDS - SHARKS FROM SPACE (NASA SPACE APPS WINNER)
+====================================================
+Status: NASA Space Apps NYC - Best Use of Google Gemini
+Technologies: AI/ML, NASA Data, Cloudflare R2, OpenSpace 3D Visualization
+
+Description:
+- Developed an AI-powered system to predict shark activity hotspots using NASA satellite data
+- Implemented zero-egress Cloudflare R2 storage for global performance
+- Created 3D visualization using OpenSpace for interactive data exploration
+- Won "Best Use of Google Gemini" award at NASA Space Apps NYC
+
+Key Achievements:
+- Successfully processed and analyzed massive NASA datasets
+- Implemented AI-assisted feature scoring for shark detection
+- Created real-time 3D visualization of shark movement patterns
+- Demonstrated practical application of space data for marine conservation
+
+Technical Skills Demonstrated:
+- AI/ML model development and training
+- Large-scale data processing
+- Cloud infrastructure (Cloudflare R2)
+- 3D visualization and interactive interfaces
+- NASA API integration
+
+2. GUNNCHAI3K - ENTERPRISE AI ASSISTANT
+======================================
+Status: Active Development
+Technologies: TypeScript, Discord.js, AI Integration, Enterprise Security
+
+Description:
+- Built an enterprise-grade Discord bot with executive controls and educational capabilities
+- Features advanced tutoring system, career guidance, and self-observation capabilities
+- Implements comprehensive security controls and whitelist-based command execution
+- Integrates web search and continuous learning for enhanced responses
+
+Key Features:
+- Executive Assistant: Secure DM commands, Cursor integration, task management
+- Tutoring System: Smart subject detection, week-based learning, 5th grade explanations
+- Career Guidance: Interactive dialog system with day-in-life and how-to-get-there responses
+- Self-Observation: Real-time learning, knowledge gap detection, performance tracking
+
+Technical Skills Demonstrated:
+- Advanced TypeScript development
+- Discord API integration and bot development
+- AI/ML integration and natural language processing
+- Enterprise security and access controls
+- Real-time learning and self-improvement algorithms
+
+3. 6G WIRELESS RESEARCH - URLLC & MILLIMETER WAVE
+===============================================
+Status: Research Project
+Technologies: 6G, URLLC, Millimeter Wave, Edge Computing, Secure SoCs
+
+Description:
+- Conducting cutting-edge research in 6G wireless communications
+- Focus on Ultra-Reliable Low-Latency Communication (URLLC) and millimeter wave technology
+- Developing secure System-on-Chip (SoC) architectures for edge computing
+- Exploring beam selection algorithms and network optimization
+
+Key Research Areas:
+- 6G beam selection algorithms and optimization
+- URLLC for critical applications (autonomous vehicles, industrial IoT)
+- Millimeter wave propagation and antenna design
+- Edge AI integration with 6G networks
+- Secure SoC development for edge computing
+
+Technical Skills Demonstrated:
+- Advanced wireless communications theory
+- Signal processing and antenna design
+- Machine learning for network optimization
+- Hardware-software co-design
+- Research methodology and academic writing
+
+4. EDGEGESTURE ARCADE - EDGE AI GESTURE RECOGNITION
+=================================================
+Status: Completed
+Technologies: Edge AI, Computer Vision, Real-time Processing, Game Development
+
+Description:
+- Developed a real-time gesture recognition system for arcade-style gaming
+- Implemented edge AI processing for low-latency gesture detection
+- Created interactive gaming interface with gesture-based controls
+- Optimized for edge computing environments with limited resources
+
+Key Achievements:
+- Achieved real-time gesture recognition with <50ms latency
+- Implemented edge-optimized AI models for gesture classification
+- Created engaging gaming experience with gesture-based controls
+- Demonstrated practical edge AI applications
+
+Technical Skills Demonstrated:
+- Computer vision and image processing
+- Edge AI model optimization
+- Real-time system development
+- Game development and user interface design
+- Performance optimization for resource-constrained environments
+
+5. ANIME AGGRESSORS - AI-POWERED CONTENT ANALYSIS
+===============================================
+Status: Completed
+Technologies: AI/ML, Natural Language Processing, Content Analysis, Web Scraping
+
+Description:
+- Developed AI system for analyzing and categorizing anime content
+- Implemented natural language processing for content description analysis
+- Created automated content recommendation system
+- Built web scraping and data processing pipeline
+
+Key Features:
+- AI-powered content analysis and categorization
+- Natural language processing for content descriptions
+- Automated recommendation system
+- Web scraping and data collection
+- User preference learning and adaptation
+
+Technical Skills Demonstrated:
+- Machine learning model development
+- Natural language processing
+- Web scraping and data collection
+- Recommendation system algorithms
+- Data analysis and visualization
+
+6. PORTFOLIO WEBSITE - MODERN WEB DEVELOPMENT
+===========================================
+Status: Live at gunnchOS3k.github.io
+Technologies: Jekyll, GitHub Pages, Minimal Mistakes Theme, Responsive Design
+
+Description:
+- Built a modern, responsive portfolio website using Jekyll and GitHub Pages
+- Implemented smooth page transitions with swup.js
+- Created comprehensive project showcases with media integration
+- Optimized for accessibility and performance
+
+Key Features:
+- Responsive design for all devices
+- Smooth page transitions and animations
+- Comprehensive project showcases
+- Professional resume and contact information
+- SEO optimization and accessibility compliance
+
+Technical Skills Demonstrated:
+- Modern web development (HTML, CSS, JavaScript)
+- Jekyll static site generation
+- Responsive design and mobile optimization
+- Performance optimization
+- SEO and accessibility best practices
+
+EDUCATION & BACKGROUND
+======================
+- MS Computer Engineering, NYU (Current)
+- Computer Information Technology, Previous
+- Network Security Experience at Humana
+- Research in 6G wireless communications
+- AI/ML development and implementation
+
+KEY TECHNICAL SKILLS
+====================
+Programming Languages: TypeScript, JavaScript, Python, C++, Java
+AI/ML: TensorFlow, PyTorch, Computer Vision, NLP, Edge AI
+Web Development: React, Next.js, Jekyll, HTML, CSS, JavaScript
+Cloud & Infrastructure: Cloudflare, AWS, Edge Computing
+Wireless Communications: 6G, URLLC, Millimeter Wave, Beam Selection
+Security: Network Security, Secure SoCs, Enterprise Security
+Research: Academic Writing, Data Analysis, Experimental Design
+
+ACHIEVEMENTS & RECOGNITION
+=========================
+- NASA Space Apps NYC Winner - Best Use of Google Gemini
+- MS Computer Engineering at NYU
+- Network Security Experience at Humana
+- Published Research in 6G Wireless Communications
+- Open Source Contributions and Community Engagement
+
+CONTACT & LINKS
+===============
+Portfolio Website: https://gunnchOS3k.github.io
+GitHub: https://github.com/gunnchOS3k
+LinkedIn: [Edmund Gunn, Jr.]
+Email: [Contact Information]
+
+This portfolio demonstrates a unique combination of theoretical research, practical 
+implementation, and real-world impact across multiple domains including AI/ML, 
+wireless communications, edge computing, and software development.

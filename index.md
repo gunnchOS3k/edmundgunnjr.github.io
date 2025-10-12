@@ -12,9 +12,9 @@ header:
       url: "/assets/Edmund_Gunn_Jr_Resume.pdf"
 ---
 
-# Prototype-driven engineer focused on real-time interaction for next-gen game consoles & controllers
+# AI/ML Engineer & 6G Researcher focused on Edge Computing & Educational Technology
 
-Hands-on network security automation, interactive learning tech, and teaching. Currently pursuing M.S. Computer Engineering at NYU Tandon with research focus on 6G wireless technology, edge AI, and secure embedded systems.
+Hands-on AI development, network security automation, and educational technology. Currently pursuing M.S. Computer Engineering at NYU Tandon with research focus on 6G wireless technology, edge AI, and secure embedded systems. Winner of NASA Space Apps NYC for AI-powered shark detection from space.
 
 ## Featured Projects
 
